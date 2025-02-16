@@ -1,0 +1,6 @@
+git 초반 세팅
+  - 폴더 PowerShell 실행
+  - git config --global user.email "이메일@gmail.com"
+  - git config --global user.name "이름"
+  해서 사용자 등록
+  
