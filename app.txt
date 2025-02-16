@@ -44,3 +44,10 @@ git difftool [Commit Id]
   => 각 CommitId 별 비교 해줌, CommitId는 최대 2개만 가능하다
 
 그 외 확장프로그램도 되게 많다.
+
+git add를 취소하려면 git reset head [파일명] 을 한다.
+  = [파일명]을 빼면 전체가 초기화된다.
+
+branch 개념
+  - Commit의 복사본을 하나 만들어서, 거기다가 코드를 짜는 방식
+  
