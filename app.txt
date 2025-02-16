@@ -27,4 +27,4 @@ git log --all --oneline
   - --all 은 전체
   - --oneline 은 요약정보, 없으면 상세정보까지 다 보임
 
-  
+vsCode 좌측에 git 아이콘을 쓸 수 있음
