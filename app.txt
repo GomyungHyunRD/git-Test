@@ -3,4 +3,12 @@ git 초반 세팅
   - git config --global user.email "이메일@gmail.com"
   - git config --global user.name "이름"
   해서 사용자 등록
-  
+
+  - git init 해서 폴더 모니터링 등록
+
+  - git add [파일명.확장자명] 해서 파일등록
+  - git commit -m '메모내용' 작성
+
+  - 추가내용 Append 도 동일하게
+  - git add [파일명.확장자명] 하여, 파일등록
+  - git commit -m '메모내용' 작성 으로, 추가내용 작성
