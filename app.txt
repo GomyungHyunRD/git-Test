@@ -12,3 +12,7 @@ git 초반 세팅
   - 추가내용 Append 도 동일하게
   - git add [파일명.확장자명] 하여, 파일등록
   - git commit -m '메모내용' 작성 으로, 추가내용 작성
+
+git의 개념은
+
+작업폴더 ( 로컬 ) -> [git add] staging area(스테이징 에리어, 작업공간) - [git commit] repository (저장소)
