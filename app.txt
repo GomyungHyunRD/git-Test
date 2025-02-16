@@ -50,4 +50,8 @@ git add를 취소하려면 git reset head [파일명] 을 한다.
 
 branch 개념
   - Commit의 복사본을 하나 만들어서, 거기다가 코드를 짜는 방식
-  
+
+git branch [명칭] => 명칭으로 브렌치 생성
+git switch [명칭] => 해당 명칭 브렌치로 스위치(변경)
+
+git status 하면, branch에 와 있다는 정보가 남아있음
