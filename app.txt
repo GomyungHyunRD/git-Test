@@ -70,7 +70,7 @@ git switch main => 메인 브렌치로 이동, 새로만든 파일이 사라진�
     - 나중이 되면 commit 내역이 조금 지저분해짐
     - git merge --squash [브렌치명]
     - 하면 새로운 브렌치에 저장된다. 즉 sub 브렌치의 이력이 커밋되지 않는 상태
-    
+
 
 브렌치 삭제 방법
   git branch -d [브랜치명] 하여, 삭제처리
@@ -80,3 +80,21 @@ git switch main => 메인 브렌치로 이동, 새로만든 파일이 사라진�
     - [-a] Default 전체 브렌치 보기
   
   git log가 가장 마지막걸 왜 안보여주는거 같지
+
+  파일 돌리는 방법
+    git restore [파일명]
+    git restore --source [커밋명] [파일명] 을 하면 해당 커밋시간으로 파일이 복구됨
+    git restore --staged [파일명] add를 취소한다. 스테이징에 가있는 파일을 돌려보낸다.  reset과 비슷한듯
+
+  Commit 취소하기
+    git revert [커밋명]
+      commit 메시지 수정가능.
+    최근 거 취소하는건 git revert head
+    merge commit 도 취소가능
+
+  git reset --hard [커밋명]
+    - 해당 시점으로 되돌린다.
+    - log가 모두 돌아가기 떄문에, 공용에선 사용하면안된다.
+    
+
+
