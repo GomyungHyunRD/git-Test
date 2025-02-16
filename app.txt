@@ -54,3 +54,18 @@ branch 개념
 git switch main => 메인 브렌치로 이동, 새로만든 파일이 사라진다.
 
 합칠때 Conflict 이 발생가능함, 그런경우 소스를 비교해서 정상으로 처리 한 뒤, 다시 git add git commit 하면됨
+
+브렌치의 3 종류
+  3-way merge
+    - main 과 subbranch에 모두 commit이 있는 경우, 비교해서 merge
+  Fast-Forward merge 
+    - main 은 커밋이 없고 subbranch에만 commit이 있는 경우, 이런 경우 merge 하면 sub branch가 main이 된다.
+    - 이게 자동으로 작동되는게 싫으면 git merge --no-ff [브린치명] 을 하면 자동으로 되지 않는다.
+
+브렌치 삭제 방법
+  git branch -d [브랜치명] 하여, 삭제처리
+    merge를 안한건 -D 로 대문자로 해줘야함
+  git branch [-r] [-a] 명령어 사용
+    - [-r] 리모트 브렌치만 보기
+    - [-a] Default 전체 브렌치 보기
+  
