@@ -16,3 +16,15 @@ git 초반 세팅
 git의 개념은
 
 작업폴더 ( 로컬 ) -> [git add] staging area(스테이징 에리어, 작업공간) - [git commit] repository (저장소)
+
+폴더를 여러개 하려면, git add [파일명.확장자명] [파일명.확장자명] ... 이렇게 길게
+폴더안에 모두를 넣으려면 git add [.] 전체
+
+git status 상태창 확인
+  모디파이드 정보랑 신규파일 등 확인됨
+
+git log --all --oneline
+  - --all 은 전체
+  - --oneline 은 요약정보, 없으면 상세정보까지 다 보임
+
+  
