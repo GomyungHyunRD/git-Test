@@ -52,3 +52,5 @@ branch 개념
   - Commit의 복사본을 하나 만들어서, 거기다가 코드를 짜는 방식
 
 git switch main => 메인 브렌치로 이동, 새로만든 파일이 사라진다.
+
+합칠때 Conflict 이 발생가능함, 그런경우 소스를 비교해서 정상으로 처리 한 뒤, 다시 git add git commit 하면됨
