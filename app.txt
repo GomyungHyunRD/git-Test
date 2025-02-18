@@ -97,4 +97,8 @@ git switch main => 메인 브렌치로 이동, 새로만든 파일이 사라진�
     - log가 모두 돌아가기 떄문에, 공용에선 사용하면안된다.
     test
 
-asdasd
+git push -u [git 주소] [브렌치]
+  github에 push 해주는 명령어
+  -u 는 주소를 기억하라는 뜻, 근데 이거 있어도 안되는거 같은데
+git remote add [변수명] [변수내용(URL)]
+git remote remove [변수명]
