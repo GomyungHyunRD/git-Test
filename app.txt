@@ -104,3 +104,5 @@ git remote add [변수명] [변수내용 혹은 git 주소]
 git remote remove [변수명]
 
 git clone [git주소]
+
+git pull 최신변동내역이 저장된다.
